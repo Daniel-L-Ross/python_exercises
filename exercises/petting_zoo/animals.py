@@ -1,110 +1,18 @@
-from datetime import date
-from os import wait
-
-class Goldfish():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.swimming = True
-        self.date_added = date.today()
-
-class Coi():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.swimming = True
-        self.date_added = date.today()
-
-class Mallard():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.swimming = True
-        self.date_added = date.today()
-
-class Capybara():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.swimming = True
-        self.date_added = date.today()
-
-class Red_eared_slider():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.swimming = True
-        self.date_added = date.today()
-
-class Kingsnake():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.slithering = True
-        self.date_added = date.today()
-
-class Ball_python():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.slithering = True
-        self.date_added = date.today()
-
-class Eastern_diamond_back():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.slithering = True
-        self.date_added = date.today()
-
-class Hognose_snake():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.slithering = True
-        self.date_added = date.today()
-
-class Cottonmouth():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.slithering = True
-        self.date_added = date.today()
-
-class Goat():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.walking = True
-        self.date_added = date.today()
-
-class Donkey():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.walking = True
-        self.date_added = date.today()
-
-class Cow():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.walking = True
-        self.date_added = date.today()
-
-class Llama():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.walking = True
-        self.date_added = date.today()
-
-class Wallaby():
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
-        self.walking = True
-        self.date_added = date.today()
+from Ball_python import Ball_python
+from Capybara import Capybara
+from Coi import Coi
+from Cottonmouth import Cottonmouth
+from Cow import Cow
+from Donkey import Donkey
+from Eastern_diamond_back import Eastern_diamond_back
+from Goat import Goat
+from Goldfish import Goldfish
+from Hognose_snake import Hognose_snake
+from Kingsnake import Kingsnake
+from Llama import Llama
+from Mallard import Mallard
+from Red_eared_slider import Red_eared_slider
+from Wallaby import Wallaby
 
 gary = Goldfish("Gary", "Goldfish")
 christian = Coi("Christian", "Coi")
@@ -125,3 +33,5 @@ whitney = Wallaby("Whitney", "Walaby")
 
 all_animals = [gary, christian, marvin, carl, reed, kristin, boyd, everett, holly, cynthia, georgia, dan, chase, larry, whitney ]
 
+for animal in all_animals:
+    print(animal.name)
