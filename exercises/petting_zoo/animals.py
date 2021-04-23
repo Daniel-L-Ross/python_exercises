@@ -119,9 +119,9 @@ cynthia = Cottonmouth()
 georgia = Goat()
 dan = Donkey()
 chase = Cow()
-lary = Llama()
+larry = Llama()
 whitney = Wallaby()
 
 
-all_animals = [gary, ]
+all_animals = [gary, christian, marvin, carl, reed, kristin, boyd, everett, holly, cynthia, georgia, dan, chase, larry, whitney ]
 
